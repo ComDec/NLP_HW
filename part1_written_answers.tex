@@ -1,0 +1,27 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+
+\title{HW3 Part 1 Written Answers}
+\author{xw3763}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{AI Usage Disclosure}
+I used AI coding assistance to inspect the starter code, implement the BPE tokenizer, run local experiments, and draft explanations. I manually reviewed the final code, tests, and written answers before submission.
+
+\section*{Q2(b) Counterexamples}
+\begin{enumerate}[label=\arabic*.]
+    \item \textbf{Not injective.} I used \texttt{google-bert/bert-base-cased}. The strings \texttt{U+1F600} and \texttt{U+1F601} are different, but both map to the same \texttt{[UNK]} token sequence, so the tokenizer is not injective.
+    \item \textbf{Not invertible.} I used \texttt{google-bert/bert-base-cased}. The string \texttt{"Hello\ \ world"} (with two spaces) decodes back as \texttt{"Hello world"}, so tokenization plus detokenization does not recover the original string exactly.
+    \item \textbf{Does not preserve concatenation.} I used \texttt{google-bert/bert-base-cased}. The tokenizer encodes \texttt{"play"} and \texttt{"ing"} differently when they appear separately than when they appear together as \texttt{"playing"}, because the subword split depends on boundary context.
+\end{enumerate}
+
+\section*{Q2(c) Why Non-Trivial Tokenizers Usually Cannot Preserve Concatenation}
+To be useful, a tokenizer normally makes boundary decisions using context, such as whitespace handling, normalization, word starts, continuation markers, or merge rules. Once boundary decisions depend on neighboring characters, the tokenization at the join between $s$ and $s_{\text{hat}}$ can change after concatenation, so exact preservation of concatenation is generally impossible except for trivial context-free schemes such as fixed character-wise tokenization.
+
+\end{document}

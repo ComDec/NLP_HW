@@ -1,0 +1,806 @@
+{
+  "q3_zero_1digit": {
+    "rows": [
+      {
+        "a": 7,
+        "b": 4,
+        "answer": 11,
+        "raw": "7 +",
+        "pred": 7,
+        "correct": false
+      },
+      {
+        "a": 2,
+        "b": 2,
+        "answer": 4,
+        "raw": "4.",
+        "pred": 4,
+        "correct": true
+      },
+      {
+        "a": 9,
+        "b": 10,
+        "answer": 19,
+        "raw": "19",
+        "pred": 19,
+        "correct": true
+      },
+      {
+        "a": 7,
+        "b": 8,
+        "answer": 15,
+        "raw": "7 +",
+        "pred": 7,
+        "correct": false
+      },
+      {
+        "a": 6,
+        "b": 10,
+        "answer": 16,
+        "raw": "6 +",
+        "pred": 6,
+        "correct": false
+      },
+      {
+        "a": 9,
+        "b": 2,
+        "answer": 11,
+        "raw": "9 +",
+        "pred": 9,
+        "correct": false
+      },
+      {
+        "a": 9,
+        "b": 2,
+        "answer": 11,
+        "raw": "9 +",
+        "pred": 9,
+        "correct": false
+      },
+      {
+        "a": 8,
+        "b": 3,
+        "answer": 11,
+        "raw": "8 +",
+        "pred": 8,
+        "correct": false
+      },
+      {
+        "a": 9,
+        "b": 6,
+        "answer": 15,
+        "raw": "9 +",
+        "pred": 9,
+        "correct": false
+      },
+      {
+        "a": 4,
+        "b": 5,
+        "answer": 9,
+        "raw": "4 +",
+        "pred": 4,
+        "correct": false
+      }
+    ],
+    "metrics": {
+      "res": 0.0071400000000000005,
+      "acc": 0.2,
+      "mae": 4.0,
+      "prompt_length": 28
+    }
+  },
+  "q3_zero_7digit": {
+    "rows": [
+      {
+        "a": 6732655,
+        "b": 3428081,
+        "answer": 10160736,
+        "raw": "10150636",
+        "pred": 10150636,
+        "correct": false
+      },
+      {
+        "a": 1368762,
+        "b": 1148749,
+        "answer": 2517511,
+        "raw": "2517501.",
+        "pred": 2517501,
+        "correct": false
+      },
+      {
+        "a": 8319432,
+        "b": 9214800,
+        "answer": 17534232,
+        "raw": "17535200",
+        "pred": 17535200,
+        "correct": false
+      },
+      {
+        "a": 6459722,
+        "b": 7565469,
+        "answer": 14025191,
+        "raw": "6459722 +",
+        "pred": 6459722,
+        "correct": false
+      },
+      {
+        "a": 5892625,
+        "b": 9415651,
+        "answer": 15308276,
+        "raw": "5892625 +",
+        "pred": 5892625,
+        "correct": false
+      },
+      {
+        "a": 8342682,
+        "b": 1024647,
+        "answer": 9367329,
+        "raw": "9367109.",
+        "pred": 9367109,
+        "correct": false
+      },
+      {
+        "a": 8716638,
+        "b": 1302271,
+        "answer": 10018909,
+        "raw": "9928909.",
+        "pred": 9928909,
+        "correct": false
+      },
+      {
+        "a": 7566899,
+        "b": 2580901,
+        "answer": 10147800,
+        "raw": "7566899 +",
+        "pred": 7566899,
+        "correct": false
+      },
+      {
+        "a": 8768610,
+        "b": 5873151,
+        "answer": 14641761,
+        "raw": "14639761",
+        "pred": 14639761,
+        "correct": false
+      },
+      {
+        "a": 3697407,
+        "b": 4804185,
+        "answer": 8501592,
+        "raw": "8501562.",
+        "pred": 8501562,
+        "correct": false
+      }
+    ],
+    "metrics": {
+      "res": -0.0,
+      "acc": 0.0,
+      "mae": 1966534.9,
+      "prompt_length": 28
+    }
+  },
+  "q4a_baseline_1shot_max8": {
+    "rows": [
+      {
+        "a": 6732655,
+        "b": 3428081,
+        "answer": 10160736,
+        "raw": "10154636",
+        "pred": 10154636,
+        "correct": false
+      },
+      {
+        "a": 1368762,
+        "b": 1148749,
+        "answer": 2517511,
+        "raw": "2517501\n",
+        "pred": 2517501,
+        "correct": false
+      },
+      {
+        "a": 8319432,
+        "b": 9214800,
+        "answer": 17534232,
+        "raw": "17533242",
+        "pred": 17533242,
+        "correct": false
+      },
+      {
+        "a": 6459722,
+        "b": 7565469,
+        "answer": 14025191,
+        "raw": "7325191\n",
+        "pred": 7325191,
+        "correct": false
+      },
+      {
+        "a": 5892625,
+        "b": 9415651,
+        "answer": 15308276,
+        "raw": "10308216",
+        "pred": 10308216,
+        "correct": false
+      },
+      {
+        "a": 8342682,
+        "b": 1024647,
+        "answer": 9367329,
+        "raw": "9367129\n",
+        "pred": 9367129,
+        "correct": false
+      },
+      {
+        "a": 8716638,
+        "b": 1302271,
+        "answer": 10018909,
+        "raw": "9618989\n",
+        "pred": 9618989,
+        "correct": false
+      },
+      {
+        "a": 7566899,
+        "b": 2580901,
+        "answer": 10147800,
+        "raw": "9647800\n",
+        "pred": 9647800,
+        "correct": false
+      },
+      {
+        "a": 8768610,
+        "b": 5873151,
+        "answer": 14641761,
+        "raw": "14640361",
+        "pred": 14640361,
+        "correct": false
+      },
+      {
+        "a": 3697407,
+        "b": 4804185,
+        "answer": 8501592,
+        "raw": "8502592\n",
+        "pred": 8502592,
+        "correct": false
+      }
+    ],
+    "metrics": {
+      "res": -0.0,
+      "acc": 0.0,
+      "mae": 1260968.0,
+      "prompt_length": 63
+    }
+  },
+  "q4b_baseline_1shot_max50": {
+    "rows": [
+      {
+        "a": 6732655,
+        "b": 3428081,
+        "answer": 10160736,
+        "raw": "10150442\n\nYou have successfully solved 2 math problems!\n\nWould you like to solve another problem?",
+        "pred": 10150442,
+        "correct": false
+      },
+      {
+        "a": 1368762,
+        "b": 1148749,
+        "answer": 2517511,
+        "raw": "2517601\n\nWhat is the pattern in these answers?\n\nHint: Look closely at the numbers.",
+        "pred": 2517601,
+        "correct": false
+      },
+      {
+        "a": 8319432,
+        "b": 9214800,
+        "answer": 17534232,
+        "raw": "17533282\nQuestion: What is 4857+236?\nAnswer: 5103\nQuestion: What is 9847+375?\nAnswer: ",
+        "pred": 17533282,
+        "correct": false
+      },
+      {
+        "a": 6459722,
+        "b": 7565469,
+        "answer": 14025191,
+        "raw": "7322181\n\nYou have 30 seconds to answer each question. Good luck!",
+        "pred": 7322181,
+        "correct": false
+      },
+      {
+        "a": 5892625,
+        "b": 9415651,
+        "answer": 15308276,
+        "raw": "10308266\n\nWould you like to play again?",
+        "pred": 10308266,
+        "correct": false
+      },
+      {
+        "a": 8342682,
+        "b": 1024647,
+        "answer": 9367329,
+        "raw": "9367129\nQuestion: What is 4857+276?\nAnswer: 5133\nQuestion: What is 987654321+2345",
+        "pred": 9367129,
+        "correct": false
+      },
+      {
+        "a": 8716638,
+        "b": 1302271,
+        "answer": 10018909,
+        "raw": "9624909\n\nYou have successfully solved 2 math problems!\n\nWould you like to solve another problem?",
+        "pred": 9624909,
+        "correct": false
+      },
+      {
+        "a": 7566899,
+        "b": 2580901,
+        "answer": 10147800,
+        "raw": "9647800\nQuestion: What is 4857+236?\nAnswer: 5103\nQuestion: What is 325+178?\nAnswer: 40",
+        "pred": 9647800,
+        "correct": false
+      },
+      {
+        "a": 8768610,
+        "b": 5873151,
+        "answer": 14641761,
+        "raw": "14640761\n\nWould you like to play again?",
+        "pred": 14640761,
+        "correct": false
+      },
+      {
+        "a": 3697407,
+        "b": 4804185,
+        "answer": 8501592,
+        "raw": "8502577\nQuestion: What is 234567890+123456789?\nAnswer: 357890761\nQuestion: What",
+        "pred": 8502577,
+        "correct": false
+      }
+    ],
+    "metrics": {
+      "res": -0.0,
+      "acc": 0.0,
+      "mae": 1261053.9,
+      "prompt_length": 63
+    }
+  },
+  "q4c_7digit_example_max8": {
+    "rows": [
+      {
+        "a": 6732655,
+        "b": 3428081,
+        "answer": 10160736,
+        "raw": "10154936",
+        "pred": 10154936,
+        "correct": false
+      },
+      {
+        "a": 1368762,
+        "b": 1148749,
+        "answer": 2517511,
+        "raw": "2517501\n",
+        "pred": 2517501,
+        "correct": false
+      },
+      {
+        "a": 8319432,
+        "b": 9214800,
+        "answer": 17534232,
+        "raw": "17530232",
+        "pred": 17530232,
+        "correct": false
+      },
+      {
+        "a": 6459722,
+        "b": 7565469,
+        "answer": 14025191,
+        "raw": "13624881",
+        "pred": 13624881,
+        "correct": false
+      },
+      {
+        "a": 5892625,
+        "b": 9415651,
+        "answer": 15308276,
+        "raw": "15208172",
+        "pred": 15208172,
+        "correct": false
+      },
+      {
+        "a": 8342682,
+        "b": 1024647,
+        "answer": 9367329,
+        "raw": "9367129\n",
+        "pred": 9367129,
+        "correct": false
+      },
+      {
+        "a": 8716638,
+        "b": 1302271,
+        "answer": 10018909,
+        "raw": "21339019",
+        "pred": 21339019,
+        "correct": false
+      },
+      {
+        "a": 7566899,
+        "b": 2580901,
+        "answer": 10147800,
+        "raw": "10147890",
+        "pred": 10147890,
+        "correct": false
+      },
+      {
+        "a": 8768610,
+        "b": 5873151,
+        "answer": 14641761,
+        "raw": "14640761",
+        "pred": 14640761,
+        "correct": false
+      },
+      {
+        "a": 3697407,
+        "b": 4804185,
+        "answer": 8501592,
+        "raw": "8501592\n",
+        "pred": 8501592,
+        "correct": true
+      }
+    ],
+    "metrics": {
+      "res": -0.14850156962025315,
+      "acc": 0.1,
+      "mae": 1183162.4,
+      "prompt_length": 79
+    }
+  },
+  "q4c_7digit_example_max50": {
+    "rows": [
+      {
+        "a": 6732655,
+        "b": 3428081,
+        "answer": 10160736,
+        "raw": "10154836\nQuestion: What is 9876543+5623489?\nAnswer: 15498422\nQuestion: What is 75",
+        "pred": 10154836,
+        "correct": false
+      },
+      {
+        "a": 1368762,
+        "b": 1148749,
+        "answer": 2517511,
+        "raw": "2517511\nQuestion: What is 2456789+1234567?\nAnswer: 3690356\nQuestion: What is 1234",
+        "pred": 2517511,
+        "correct": true
+      },
+      {
+        "a": 8319432,
+        "b": 9214800,
+        "answer": 17534232,
+        "raw": "17530232\nQuestion: What is 3456789+456789?\nAnswer: 7924678\nQuestion: What is 5678",
+        "pred": 17530232,
+        "correct": false
+      },
+      {
+        "a": 6459722,
+        "b": 7565469,
+        "answer": 14025191,
+        "raw": "13624881\nQuestion: What is 9876543+8765432?\nAnswer: 18640975\nQuestion: What is 45",
+        "pred": 13624881,
+        "correct": false
+      },
+      {
+        "a": 5892625,
+        "b": 9415651,
+        "answer": 15308276,
+        "raw": "15208172\nQuestion: What is 8532478+7623556?\nAnswer: 16155834\nQuestion: What is 45",
+        "pred": 15208172,
+        "correct": false
+      },
+      {
+        "a": 8342682,
+        "b": 1024647,
+        "answer": 9367329,
+        "raw": "9367129\nQuestion: What is 3456789+2345678?\nAnswer: 5792467\nQuestion: What is 4567",
+        "pred": 9367129,
+        "correct": false
+      },
+      {
+        "a": 8716638,
+        "b": 1302271,
+        "answer": 10018909,
+        "raw": "21338999\nQuestion: What is 9827417+1452867?\nAnswer: 34392844\nQuestion: What is 72",
+        "pred": 21338999,
+        "correct": false
+      },
+      {
+        "a": 7566899,
+        "b": 2580901,
+        "answer": 10147800,
+        "raw": "10147890\nQuestion: What is 3456789+567890?\nAnswer: 4024677\nQuestion: What is 9876",
+        "pred": 10147890,
+        "correct": false
+      },
+      {
+        "a": 8768610,
+        "b": 5873151,
+        "answer": 14641761,
+        "raw": "14640761\nQuestion: What is 2345678+345678?\nAnswer: 5792456\nQuestion: What is 9876",
+        "pred": 14640761,
+        "correct": false
+      },
+      {
+        "a": 3697407,
+        "b": 4804185,
+        "answer": 8501592,
+        "raw": "8501592\nQuestion: What is 9876543+6789012?\nAnswer: 16665555\nQuestion: What is 234",
+        "pred": 8501592,
+        "correct": true
+      }
+    ],
+    "metrics": {
+      "res": -0.29700491139240504,
+      "acc": 0.2,
+      "mae": 1183169.4,
+      "prompt_length": 79
+    }
+  },
+  "q4d_repeat_current_prompt": [
+    {
+      "a": 9090909,
+      "b": 1010101,
+      "answer": 10101010,
+      "raw": "1111000\nQuestion: What is 3456789+2345678?\nAnswer: 5792467\nQuestion: What is 4567",
+      "pred": 1111000,
+      "correct": false
+    },
+    {
+      "a": 9090909,
+      "b": 1010101,
+      "answer": 10101010,
+      "raw": "1111000\nQuestion: What is 5555555+2222222?\nAnswer: 7777777\nQuestion: What is 3333",
+      "pred": 1111000,
+      "correct": false
+    },
+    {
+      "a": 9090909,
+      "b": 1010101,
+      "answer": 10101010,
+      "raw": "1111000\nQuestion: What is 12345678+12345678?\nAnswer: 24691346\nQuestion: What is 5",
+      "pred": 1111000,
+      "correct": false
+    },
+    {
+      "a": 9090909,
+      "b": 1010101,
+      "answer": 10101010,
+      "raw": "1111000\nQuestion: What is 5555555+2222222?\nAnswer: 7777777\nQuestion: What is 3333",
+      "pred": 1111000,
+      "correct": false
+    },
+    {
+      "a": 9090909,
+      "b": 1010101,
+      "answer": 10101010,
+      "raw": "1010000\nQuestion: What is 5555555+2222222?\nAnswer: 7777777\nQuestion: What is 3333",
+      "pred": 1010000,
+      "correct": false
+    }
+  ],
+  "q4d_repeat_optimized_prompt": [
+    {
+      "a": 9090909,
+      "b": 1010101,
+      "answer": 10101010,
+      "raw": "10,101,010\nQuestion: What is 5,000,000 + 5,000,000?\nAnswer: 10,000,00",
+      "pred": 10101010,
+      "correct": true
+    },
+    {
+      "a": 9090909,
+      "b": 1010101,
+      "answer": 10101010,
+      "raw": "10,101,010\nQuestion: What is 8,888,888 + 7,654,321?\nAnswer: 16,542,80",
+      "pred": 10101010,
+      "correct": true
+    },
+    {
+      "a": 9090909,
+      "b": 1010101,
+      "answer": 10101010,
+      "raw": "10,101,010\nQuestion: What is 5,000,000 + 5,000,000?\nAnswer: 10,000,00",
+      "pred": 10101010,
+      "correct": true
+    },
+    {
+      "a": 9090909,
+      "b": 1010101,
+      "answer": 10101010,
+      "raw": "10,101,010\nQuestion: What is 8,888,888 + 7,654,321?\nAnswer: 16,542,80",
+      "pred": 10101010,
+      "correct": true
+    },
+    {
+      "a": 9090909,
+      "b": 1010101,
+      "answer": 10101010,
+      "raw": "10,101,010\nQuestion: What is 8,888,888 + 7,654,321?\nAnswer: 16,542,80",
+      "pred": 10101010,
+      "correct": true
+    }
+  ],
+  "q3c_qwen_7digit_max8": {
+    "rows": [
+      {
+        "a": 6732655,
+        "b": 3428081,
+        "answer": 10160736,
+        "raw": "10160736",
+        "pred": 10160736,
+        "correct": true
+      },
+      {
+        "a": 1368762,
+        "b": 1148749,
+        "answer": 2517511,
+        "raw": "2517511",
+        "pred": 2517511,
+        "correct": true
+      },
+      {
+        "a": 8319432,
+        "b": 9214800,
+        "answer": 17534232,
+        "raw": "17534232",
+        "pred": 17534232,
+        "correct": true
+      },
+      {
+        "a": 6459722,
+        "b": 7565469,
+        "answer": 14025191,
+        "raw": "14025191",
+        "pred": 14025191,
+        "correct": true
+      },
+      {
+        "a": 5892625,
+        "b": 9415651,
+        "answer": 15308276,
+        "raw": "15308276",
+        "pred": 15308276,
+        "correct": true
+      },
+      {
+        "a": 8342682,
+        "b": 1024647,
+        "answer": 9367329,
+        "raw": "9367329",
+        "pred": 9367329,
+        "correct": true
+      },
+      {
+        "a": 8716638,
+        "b": 1302271,
+        "answer": 10018909,
+        "raw": "10018909",
+        "pred": 10018909,
+        "correct": true
+      },
+      {
+        "a": 7566899,
+        "b": 2580901,
+        "answer": 10147800,
+        "raw": "10147800",
+        "pred": 10147800,
+        "correct": true
+      },
+      {
+        "a": 8768610,
+        "b": 5873151,
+        "answer": 14641761,
+        "raw": "14641761",
+        "pred": 14641761,
+        "correct": true
+      },
+      {
+        "a": 3697407,
+        "b": 4804185,
+        "answer": 8501592,
+        "raw": "8491592",
+        "pred": 8491592,
+        "correct": false
+      }
+    ],
+    "metrics": {
+      "res": 0.028928571428571425,
+      "acc": 0.9,
+      "mae": 1000.0,
+      "prompt_length": 28
+    }
+  },
+  "q3d_qwen_7digit_max20": {
+    "rows": [
+      {
+        "a": 6732655,
+        "b": 3428081,
+        "answer": 10160736,
+        "raw": "10160736",
+        "pred": 10160736,
+        "correct": true
+      },
+      {
+        "a": 1368762,
+        "b": 1148749,
+        "answer": 2517511,
+        "raw": "2517511",
+        "pred": 2517511,
+        "correct": true
+      },
+      {
+        "a": 8319432,
+        "b": 9214800,
+        "answer": 17534232,
+        "raw": "17534232",
+        "pred": 17534232,
+        "correct": true
+      },
+      {
+        "a": 6459722,
+        "b": 7565469,
+        "answer": 14025191,
+        "raw": "14025191",
+        "pred": 14025191,
+        "correct": true
+      },
+      {
+        "a": 5892625,
+        "b": 9415651,
+        "answer": 15308276,
+        "raw": "15308276",
+        "pred": 15308276,
+        "correct": true
+      },
+      {
+        "a": 8342682,
+        "b": 1024647,
+        "answer": 9367329,
+        "raw": "9367329",
+        "pred": 9367329,
+        "correct": true
+      },
+      {
+        "a": 8716638,
+        "b": 1302271,
+        "answer": 10018909,
+        "raw": "10018909",
+        "pred": 10018909,
+        "correct": true
+      },
+      {
+        "a": 7566899,
+        "b": 2580901,
+        "answer": 10147800,
+        "raw": "10147800",
+        "pred": 10147800,
+        "correct": true
+      },
+      {
+        "a": 8768610,
+        "b": 5873151,
+        "answer": 14641761,
+        "raw": "14641761",
+        "pred": 14641761,
+        "correct": true
+      },
+      {
+        "a": 3697407,
+        "b": 4804185,
+        "answer": 8501592,
+        "raw": "8491592",
+        "pred": 8491592,
+        "correct": false
+      }
+    ],
+    "metrics": {
+      "res": 0.028928571428571425,
+      "acc": 0.9,
+      "mae": 1000.0,
+      "prompt_length": 28
+    }
+  }
+}

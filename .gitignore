@@ -1,0 +1,12 @@
+__MACOSX/
+**/__pycache__/
+*.pyc
+.DS_Store
+
+# Local Llama-2 experimentation artifacts
+part2/llama_meta_tools/
+part2/llamadownload/
+part2/local_path_eval.json
+
+# Assignment bundles not needed for GitHub upload
+hw3code.zip

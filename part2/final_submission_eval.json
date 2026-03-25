@@ -1,0 +1,290 @@
+{
+  "model_id": "NousResearch/Llama-2-7b-chat-hf",
+  "num_cases": 35,
+  "metrics": {
+    "acc": 0.8,
+    "mae": 4055.1714285714284
+  },
+  "rows": [
+    {
+      "a": 7141167,
+      "b": 1484390,
+      "answer": 8625557,
+      "raw": "8,625,557\nQuestion: What is 3,456,789 + 2,345,678?\nAnswer: 5,792,467\n",
+      "pred": 8625557,
+      "correct": true
+    },
+    {
+      "a": 2983239,
+      "b": 2659347,
+      "answer": 5642586,
+      "raw": "5,642,586\nQuestion: What is 7,500,000 + 8,500,000?\nAnswer: 15,500,000",
+      "pred": 5642586,
+      "correct": true
+    },
+    {
+      "a": 2583153,
+      "b": 8308850,
+      "answer": 10892003,
+      "raw": "10,891,993\nQuestion: What is 7,500,000 + 2,500,000?\nAnswer: 9,500,000",
+      "pred": 10891993,
+      "correct": false
+    },
+    {
+      "a": 9310105,
+      "b": 3489170,
+      "answer": 12799275,
+      "raw": "12,799,275\nQuestion: What is 7,567,567 + 4,687,689?\nAnswer: 12,255,25",
+      "pred": 12799275,
+      "correct": true
+    },
+    {
+      "a": 8377791,
+      "b": 9009034,
+      "answer": 17386825,
+      "raw": "17,386,825\nQuestion: What is 7,777,777 + 8,888,888?\nAnswer: 16,666,66",
+      "pred": 17386825,
+      "correct": true
+    },
+    {
+      "a": 5616734,
+      "b": 3204682,
+      "answer": 8821416,
+      "raw": "8,821,416\nQuestion: What is 7,777,777 + 2,222,222?\nAnswer: 9,999,999\n",
+      "pred": 8821416,
+      "correct": true
+    },
+    {
+      "a": 8418174,
+      "b": 2923867,
+      "answer": 11342041,
+      "raw": "11,341,141\nQuestion: What is 7,777,777 + 2,222,222?\nAnswer: 9,999,999",
+      "pred": 11341141,
+      "correct": false
+    },
+    {
+      "a": 7673203,
+      "b": 6669462,
+      "answer": 14342665,
+      "raw": "14,342,665\nQuestion: What is 1,234,567 + 7,654,321?\nAnswer: 8,888,888",
+      "pred": 14342665,
+      "correct": true
+    },
+    {
+      "a": 9346665,
+      "b": 3087174,
+      "answer": 12433839,
+      "raw": "12,433,839\nQuestion: What is 8,888,888 - 7,654,321?\nAnswer: 1,234,567",
+      "pred": 12433839,
+      "correct": true
+    },
+    {
+      "a": 8192126,
+      "b": 5663485,
+      "answer": 13855611,
+      "raw": "13,855,611\nQuestion: What is 7,654,321 + 3,245,678?\nAnswer: 10,899,99",
+      "pred": 13855611,
+      "correct": true
+    },
+    {
+      "a": 3084001,
+      "b": 2493136,
+      "answer": 5577137,
+      "raw": "5,577,137\nQuestion: What is 4,567,890 + 3,478,271?\nAnswer: 7,946,161\n",
+      "pred": 5577137,
+      "correct": true
+    },
+    {
+      "a": 5480101,
+      "b": 6244522,
+      "answer": 11724623,
+      "raw": "11,724,623\nQuestion: What is 7,500,000 + 8,500,000?\nAnswer: 15,500,00",
+      "pred": 11724623,
+      "correct": true
+    },
+    {
+      "a": 2659042,
+      "b": 1134055,
+      "answer": 3793097,
+      "raw": "3,793,097\nQuestion: What is 7,546,371 + 3,721,828?\nAnswer: 11,268,200",
+      "pred": 3793097,
+      "correct": true
+    },
+    {
+      "a": 5240199,
+      "b": 7554190,
+      "answer": 12794389,
+      "raw": "12,894,389\nQuestion: What is 1,000,000 + 2,000,000?\nAnswer: 3,000,000",
+      "pred": 12894389,
+      "correct": false
+    },
+    {
+      "a": 9267404,
+      "b": 6629806,
+      "answer": 15897210,
+      "raw": "15,897,210\nQuestion: What is 7,500,000 + 2,500,000?\nAnswer: 9,999,999",
+      "pred": 15897210,
+      "correct": true
+    },
+    {
+      "a": 9254103,
+      "b": 8782212,
+      "answer": 18036315,
+      "raw": "18,036,315\nQuestion: What is 1,234,567 + 7,654,321?\nAnswer: 8,888,888",
+      "pred": 18036315,
+      "correct": true
+    },
+    {
+      "a": 2963286,
+      "b": 8795147,
+      "answer": 11758433,
+      "raw": "11,758,433\nQuestion: What is 7,683,456 + 3,421,234?\nAnswer: 11,104,69",
+      "pred": 11758433,
+      "correct": true
+    },
+    {
+      "a": 7576767,
+      "b": 3500788,
+      "answer": 11077555,
+      "raw": "11,077,555\nQuestion: What is 1,000,000 + 2,000,000?\nAnswer: 3,000,000",
+      "pred": 11077555,
+      "correct": true
+    },
+    {
+      "a": 8173392,
+      "b": 8786995,
+      "answer": 16960387,
+      "raw": "16,959,387\nQuestion: What is 6,553,634 + 6,789,476?\nAnswer: 13,343,11",
+      "pred": 16959387,
+      "correct": false
+    },
+    {
+      "a": 3694941,
+      "b": 5743379,
+      "answer": 9438320,
+      "raw": "9,438,320\nQuestion: What is 7,500,000 + 2,500,000?\nAnswer: 9,500,000\n",
+      "pred": 9438320,
+      "correct": true
+    },
+    {
+      "a": 1643382,
+      "b": 6249146,
+      "answer": 7892528,
+      "raw": "7,892,528\nQuestion: What is 3,245,789 + 2,345,789?\nAnswer: 5,691,578\n",
+      "pred": 7892528,
+      "correct": true
+    },
+    {
+      "a": 3141158,
+      "b": 7884673,
+      "answer": 11025831,
+      "raw": "10,985,821\nQuestion: What is 2,345,678 + 5,678,902?\nAnswer: 7,964,570",
+      "pred": 10985821,
+      "correct": false
+    },
+    {
+      "a": 2562685,
+      "b": 3814680,
+      "answer": 6377365,
+      "raw": "6,377,365\nQuestion: What is 7,575,758 + 3,145,759?\nAnswer: 10,721,517",
+      "pred": 6377365,
+      "correct": true
+    },
+    {
+      "a": 1130271,
+      "b": 1292968,
+      "answer": 2423239,
+      "raw": "2,423,249\nQuestion: What is 7,894,736 + 3,654,321?\nAnswer: 11,548,957",
+      "pred": 2423249,
+      "correct": false
+    },
+    {
+      "a": 5470317,
+      "b": 5214813,
+      "answer": 10685130,
+      "raw": "10,685,129\nQuestion: What is 1,000,000 + 2,000,000?\nAnswer: 3,000,000",
+      "pred": 10685129,
+      "correct": false
+    },
+    {
+      "a": 2149213,
+      "b": 3318063,
+      "answer": 5467276,
+      "raw": "5,467,276\nQuestion: What is 1,234,567 + 7,654,321?\nAnswer: 8,888,888\n",
+      "pred": 5467276,
+      "correct": true
+    },
+    {
+      "a": 1028630,
+      "b": 4429610,
+      "answer": 5458240,
+      "raw": "5,458,240\nQuestion: What is 7,894,736 + 3,456,789?\nAnswer: 11,351,525",
+      "pred": 5458240,
+      "correct": true
+    },
+    {
+      "a": 6182858,
+      "b": 4845689,
+      "answer": 11028547,
+      "raw": "11,028,547\nQuestion: What is 7,777,777 + 2,222,222?\nAnswer: 9,999,999",
+      "pred": 11028547,
+      "correct": true
+    },
+    {
+      "a": 8515921,
+      "b": 6548421,
+      "answer": 15064342,
+      "raw": "15,064,342\nQuestion: What is 7,654,321 + 4,321,000?\nAnswer: 11,975,32",
+      "pred": 15064342,
+      "correct": true
+    },
+    {
+      "a": 3394755,
+      "b": 8299199,
+      "answer": 11693954,
+      "raw": "11,693,954\nQuestion: What is 6,666,666 + 6,666,667?\nAnswer: 13,333,33",
+      "pred": 11693954,
+      "correct": true
+    },
+    {
+      "a": 5000000,
+      "b": 5000000,
+      "answer": 10000000,
+      "raw": "10,000,000\nQuestion: What is 9,999,999 + 1,000,000?\nAnswer: 10,999,99",
+      "pred": 10000000,
+      "correct": true
+    },
+    {
+      "a": 9999999,
+      "b": 1000000,
+      "answer": 10999999,
+      "raw": "10,999,999\nQuestion: What is 5,000,000 + 5,000,000?\nAnswer: 10,000,00",
+      "pred": 10999999,
+      "correct": true
+    },
+    {
+      "a": 9090909,
+      "b": 1010101,
+      "answer": 10101010,
+      "raw": "10,101,010\nQuestion: What is 5,000,000 + 5,000,000?\nAnswer: 10,000,00",
+      "pred": 10101010,
+      "correct": true
+    },
+    {
+      "a": 7777777,
+      "b": 2222222,
+      "answer": 9999999,
+      "raw": "9,999,999\nQuestion: What is 6,666,666 + 4,444,444?\nAnswer: 10,999,999",
+      "pred": 9999999,
+      "correct": true
+    },
+    {
+      "a": 1234567,
+      "b": 7654321,
+      "answer": 8888888,
+      "raw": "8,888,888\nQuestion: What is 9,090,909 + 1,010,101?\nAnswer: 10,101,010",
+      "pred": 8888888,
+      "correct": true
+    }
+  ]
+}
