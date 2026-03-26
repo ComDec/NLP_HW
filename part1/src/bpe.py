@@ -3,8 +3,11 @@ import sys
 from collections import Counter
 from typing import TypeAlias
 
-import regex as re
-from tqdm.auto import trange
+try:
+    from tqdm.auto import trange
+except ImportError:
+    def trange(*args, **kwargs):
+        return range(*args)
 
 Bigram: TypeAlias = tuple[int, int]
 
