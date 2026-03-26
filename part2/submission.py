@@ -1,12 +1,17 @@
 import os
 import re
-from huggingface_hub import get_token
+from importlib import import_module
 
 def your_netid():
     return 'xw3763'
 
 def your_hf_token():
-    return get_token() or os.getenv('HF_TOKEN') or os.getenv('HUGGINGFACE_HUB_TOKEN') or 'YOUR_HF_TOKEN'
+    token = None
+    try:
+        token = import_module('huggingface_hub').get_token()
+    except (ImportError, AttributeError):
+        token = None
+    return token or os.getenv('HF_TOKEN') or os.getenv('HUGGINGFACE_HUB_TOKEN') or 'YOUR_HF_TOKEN'
 
 
 # for adding small numbers (1-6 digits) and large numbers (7 digits), write prompt prefix and prompt suffix separately.
